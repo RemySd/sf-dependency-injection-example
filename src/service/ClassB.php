@@ -4,7 +4,7 @@ namespace App\Service;
 
 class ClassB
 {
-    private $classA;
+    private ClassA $classA;
 
     public function __construct(ClassA $classA)
     {
